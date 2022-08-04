@@ -10,6 +10,9 @@ public class SingletonLazy {
     }
 
     public static SingletonLazy getInstancia() {
+        if (instancia == null) {
+            instancia = new SingletonLazy();
+        }
         return instancia;
     }
 
