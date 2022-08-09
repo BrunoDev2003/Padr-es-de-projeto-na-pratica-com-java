@@ -1,3 +1,5 @@
+import facade.Facade;
+
 public class App {
    //usando padrão strategy para criar um robo em java,tambem usando polimorfismo
     public static void main(String[] args) throws Exception {
@@ -11,5 +13,8 @@ public class App {
         robo.mover();
         robo.mover();
 
+
+        Facade facade = new Facade();
+        facade.migrarCliente("bruno","45318965");
     }
 }
