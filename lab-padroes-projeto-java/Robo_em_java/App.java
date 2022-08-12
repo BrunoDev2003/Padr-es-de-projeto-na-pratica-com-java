@@ -18,3 +18,5 @@ public class App {
         facade.migrarCliente("bruno","45318965");
     }
 }
+
+//baixar o spring initilizer java for web, importar no projeto e colocar em sub-pacotes,e usar openfeign

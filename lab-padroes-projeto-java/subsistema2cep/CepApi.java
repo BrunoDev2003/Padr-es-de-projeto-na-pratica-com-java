@@ -1,4 +1,4 @@
-package subsistema2cep;
+package Robo_em_java.subsistema2cep;
 
 public class CepApi {
     private static CepApi instancia = new CepApi();
