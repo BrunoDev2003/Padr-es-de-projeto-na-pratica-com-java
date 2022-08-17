@@ -2,6 +2,7 @@ package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /*
  * Projeto Spring Boot gerado via Spring Initializer
@@ -14,7 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Bruno Mendonça Gusmão
  */
 
-	@enableFeignClients
+	@EnableFeignClients
 	@SpringBootApplication
 
 @SpringBootApplication
